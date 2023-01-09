@@ -5,7 +5,7 @@
     list-style: none;
 }
 a{
-    flex-direction: none;
+    text-decoration: none;
     display: inline-block;
 }
 
@@ -15,4 +15,118 @@ body{
 .container{
     margin: 0 auto;
     width: 1140px;
+}
+
+
+.nav_list{ 
+    display: flex;
+    align-items: center;
+    
+}
+.nav_item{
+    margin-left: 25px;
+}
+.nav_itemres{
+    margin-left: 30px;  
+
+    padding: 26px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(245, 96, 57, 1);
+    width: 150px;
+    height: 98px;
+    
+}
+.nav_itemres b{
+    color: #fff;
+}
+.nav_itemres img{
+    width: 40%;
+    margin-bottom: 15px;        
+}
+.nav_input{
+    margin-left: 60px;
+    position: relative;
+}
+
+.nav_input i{
+    position: absolute;
+    left: 2%;
+    top: 30%;
+}
+
+.nav_input input{
+    padding: 10px 20px;
+    border: 1px solid rgba(224, 224, 224, 1);
+}
+
+.nav_input button{
+    padding: 10px 20px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    margin-left: -15px;
+    color: #fff;
+}
+.nav_input button:hover{
+    border: 2px solid black;
+    border-left: 1px solid rgba(224, 224, 224, 1); 
+}
+.the{
+    background-image: url(/img/IMAGE\ \(6\).png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+.the_text{
+    font-size: 50px;
+    width:  50%;
+}
+.the_subtext{
+    margin-top: 20px;
+    width: 45%;
+}
+.the_link{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.the_link a{
+    background-color: rgba(245, 95, 57, 1);
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    transition: .6s;
+}
+.the_link a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+
+.how{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.how_left {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;   
+}
+.how_left h2{
+    color: aqua;
+    width: 30%;
+    font-size: 40px;
+}
+.how_list{
+    margin-left: 60px;
+}
+.how_item{
+    line-height: 30px;
 }
